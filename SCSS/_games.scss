@@ -1,0 +1,49 @@
+.games{
+    background: url('https://i.ibb.co/tBJGPD9/xbox.png') no-repeat center center/cover;
+    height: 350px;
+    margin-top: 2.2rem;
+    .content{
+        max-width: 450px;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        overflow: hidden;
+        h1{
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+        p{
+            margin-bottom: 2rem;
+        }
+        a{
+            background: $dark;
+            color: $light;
+            padding: .8rem;
+            font-weight: bolder;
+            i{
+                font-size: .7rem;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width:800px){
+    .games .content {
+        max-width: 294px;
+    }
+}
+
+@media (max-width:500px){
+    .games .content p {
+        display: none;
+    }
+    .games .content h1 {
+        margin-bottom: 3rem;
+    }
+    .games .content {
+        max-width: 220px;
+        padding-top: 5rem;
+        padding-left: 2rem;
+    }
+}

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #111;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.wrapper{
+    max-width: 1300px;
+    margin: auto;
+    width: 90%;
+}
+
+$light: #fff;
+$dark: #111;
+
+
+
+@media (max-width:812px) and (min-width:375px) and (orientation: landscape) {
+   .showcase{
+       height: 90vh;
+   }
+   .products .items {
+    grid-template-columns: repeat(2,1fr);
+}
+}
