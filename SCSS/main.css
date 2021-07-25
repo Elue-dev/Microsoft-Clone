@@ -176,6 +176,7 @@ nav .right-nav li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow: hidden;
 }
 
 .showcase h1 {
@@ -209,6 +210,12 @@ nav .right-nav li {
   }
   .showcase h1 {
     font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .showcase {
+    height: 60vh;
   }
 }
 

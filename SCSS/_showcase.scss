@@ -2,6 +2,7 @@
     background: url("https://i.ibb.co/zGSDGCL/slide1.png") no-repeat center center/cover;
     height: 70vh;
     @include flexBox(center, column);
+    overflow: hidden;
     h1{
         margin-top: 8.2rem;
         margin-bottom: .7rem;
@@ -31,5 +32,11 @@
     }
     .showcase h1 {
         font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 330px){
+    .showcase {
+        height: 60vh;
     }
 }
