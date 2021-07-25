@@ -2,7 +2,7 @@
     background: url("https://i.ibb.co/zGSDGCL/slide1.png") no-repeat center center/cover;
     height: 70vh;
     @include flexBox(center, column);
-    overflow: hidden;
+    overflow: hidden ;
     h1{
         margin-top: 8.2rem;
         margin-bottom: .7rem;
