@@ -146,7 +146,7 @@ nav .right-nav li {
 
 @media (max-width: 660px) {
   .hamburger {
-    top: 17px;
+    top: 15px;
     right: 34px;
   }
 }
@@ -215,7 +215,7 @@ nav .right-nav li {
 
 @media (max-width: 330px) {
   .showcase {
-    height: 61vh;
+    height: 90vh;
   }
 }
 
@@ -432,6 +432,7 @@ nav .right-nav li {
 @media (max-width: 500px) {
   .commit .content {
     max-width: 314px;
+    margin-top: -1.7rem;
   }
   .commit .content h1 {
     font-size: 1.4rem;
@@ -540,6 +541,12 @@ footer .items a {
   }
   .items2 {
     left: 4%;
+  }
+  .items2 li a {
+    font-size: .7rem;
+  }
+  .footer p {
+    font-size: .8rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
