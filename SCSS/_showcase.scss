@@ -28,7 +28,7 @@
 
 @media (max-width:500px){
     .showcase{
-        height: 50vh;
+        height: 65vh;
     }
     .showcase h1 {
         font-size: 1.3rem;
@@ -36,9 +36,6 @@
 }
 
 @media (max-width: 300px){
-    .showcase {
-        height: 60vh;
-    }
     .showcase h1 {
         font-size: 1.1rem;
     }

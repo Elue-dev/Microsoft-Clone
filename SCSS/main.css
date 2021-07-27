@@ -224,7 +224,7 @@ nav .right-nav li {
 
 @media (max-width: 500px) {
   .showcase {
-    height: 50vh;
+    height: 65vh;
   }
   .showcase h1 {
     font-size: 1.3rem;
@@ -232,9 +232,6 @@ nav .right-nav li {
 }
 
 @media (max-width: 300px) {
-  .showcase {
-    height: 60vh;
-  }
   .showcase h1 {
     font-size: 1.1rem;
   }
@@ -352,12 +349,12 @@ nav .right-nav li {
     display: none;
   }
   .games .content h1 {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
   .games .content {
-    max-width: 220px;
-    padding-top: 5rem;
-    padding-left: 2rem;
+    max-width: 170px;
+    padding-top: 4rem;
+    padding-left: 1.1rem;
   }
 }
 
@@ -374,11 +371,6 @@ nav .right-nav li {
   }
   .games {
     height: 270px;
-  }
-  .games .content {
-    max-width: 170px;
-    padding-top: 4rem;
-    padding-left: 1.1rem;
   }
 }
 
