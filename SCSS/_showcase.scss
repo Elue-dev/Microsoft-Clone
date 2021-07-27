@@ -35,8 +35,17 @@
     }
 }
 
-@media (max-width: 330px){
+@media (max-width: 300px){
     .showcase {
-        height: 90vh;
+        height: 60vh;
+    }
+    .showcase h1 {
+        font-size: 1.1rem;
+    }
+    .showcase .btn {
+        padding: .4rem;
+    }
+    .showcase .btn i {
+        font-size: .5rem;
     }
 }

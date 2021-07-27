@@ -31,6 +31,12 @@ body {
   }
 }
 
+@media (max-width: 300px) {
+  body {
+    font-size: 11px;
+  }
+}
+
 .hamburger {
   position: absolute;
   top: 18px;
@@ -157,6 +163,18 @@ nav .right-nav li {
   }
   .hamburger {
     right: 28px;
+    font-size: .6rem;
+    top: 18px;
+  }
+}
+
+@media (max-width: 300px) {
+  nav .right-nav i {
+    color: #111;
+    font-size: .9rem;
+  }
+  .hamburger {
+    font-size: .5rem;
   }
 }
 
@@ -213,9 +231,18 @@ nav .right-nav li {
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 300px) {
   .showcase {
-    height: 90vh;
+    height: 60vh;
+  }
+  .showcase h1 {
+    font-size: 1.1rem;
+  }
+  .showcase .btn {
+    padding: .4rem;
+  }
+  .showcase .btn i {
+    font-size: .5rem;
   }
 }
 
@@ -267,6 +294,17 @@ nav .right-nav li {
   }
   .showcase p {
     text-align: center;
+  }
+}
+
+@media (max-width: 300px) {
+  .products .items .item a {
+    font-weight: 600;
+    font-size: 0.6rem;
+    color: #4949c9;
+  }
+  .products .items .item p {
+    font-size: .7rem;
   }
 }
 
@@ -323,6 +361,27 @@ nav .right-nav li {
   }
 }
 
+@media (max-width: 300px) {
+  .games .content h1 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  .games .content a i {
+    font-size: .5rem;
+  }
+  .games .content a {
+    padding: .6rem;
+  }
+  .games {
+    height: 270px;
+  }
+  .games .content {
+    max-width: 170px;
+    padding-top: 4rem;
+    padding-left: 1.1rem;
+  }
+}
+
 .shop {
   margin-top: 2rem;
 }
@@ -366,6 +425,18 @@ nav .right-nav li {
   .shop .items {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 300px) {
+  .shop .items .item h1 {
+    font-size: 1rem;
+  }
+  .shop .items .item h1 {
+    font-size: .9rem;
+  }
+  .shop .items .item a {
+    font-size: 0.6rem;
   }
 }
 
@@ -448,6 +519,22 @@ nav .right-nav li {
   }
   .items2 .eng {
     margin-bottom: .8rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .commit .content h1 {
+    font-size: 1rem;
+  }
+  .commit .content p {
+    margin-bottom: 1rem;
+    font-size: .6rem;
+  }
+  .commit .content a {
+    padding: .5rem;
+  }
+  .social p {
+    font-size: .9rem;
   }
 }
 

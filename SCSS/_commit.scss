@@ -68,3 +68,19 @@
         margin-bottom: .8rem;
     }
 }
+
+@media (max-width: 300px){
+    .commit .content h1 {
+        font-size: 1rem;
+    }
+    .commit .content p {
+        margin-bottom: 1rem;
+        font-size: .6rem;
+    }
+    .commit .content a {
+        padding: .5rem;
+    }
+    .social p {
+        font-size: .9rem;
+    }
+}
