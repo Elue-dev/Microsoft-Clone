@@ -595,8 +595,8 @@ footer .items a {
 
 @media (max-width: 800px) {
   footer .items {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
     -webkit-column-gap: 1rem;
             column-gap: 1rem;
     row-gap: 2rem;
@@ -605,8 +605,8 @@ footer .items a {
 
 @media (max-width: 500px) {
   footer .items {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
     -webkit-column-gap: 1rem;
             column-gap: 1rem;
     row-gap: 2rem;
