@@ -16,7 +16,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1300px;
+  max-width: 1500px;
   margin: auto;
   width: 90%;
 }
@@ -616,7 +616,7 @@ footer .items a {
     line-height: 2;
   }
   footer .items a {
-    font-size: .7rem;
+    font-size: .9rem;
   }
   .items2 {
     left: 4%;
