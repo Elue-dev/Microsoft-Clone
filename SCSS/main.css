@@ -330,8 +330,9 @@ nav .right-nav li {
 .games .content a {
   background: #111;
   color: #fff;
-  padding: .8rem;
+  padding: .6rem;
   font-weight: bolder;
+  display: inline-block;
 }
 
 .games .content a i {
@@ -459,8 +460,9 @@ nav .right-nav li {
 .commit .content a {
   background: #f2f2f2;
   color: #111;
-  padding: 1rem;
+  padding: .6rem;
   font-weight: bolder;
+  display: inline-block;
 }
 
 .social {
